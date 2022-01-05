@@ -39,6 +39,9 @@ h3 {
 }*/
 
 .link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   border: 1px inset black;
   border-radius: 8px;
