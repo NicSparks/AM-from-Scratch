@@ -1,7 +1,20 @@
 /*Requirements
 4 css variables */
 
-img {
+:root {
+}
+
+.font {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.img {
+  width: 25%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  height: 50%;
 }
 
 h2 {
@@ -11,15 +24,29 @@ h5 {
 }
 
 q {
+  font-style: italic;
+  font-size: 0.75em;
 }
 
 h3 {
+  text-decoration: underline;
 }
 
-a {
+/*.buttons {
+  background-color: cornflowerblue;
+  color: black;
+  padding: 0.75em 1em;
+}*/
+
+.link {
+  padding: 1rem;
+  border: 1px inset black;
+  border-radius: 8px;
+  background: steelblue;
 }
 
-p {
+.btn-link:hover {
+  background: tomato;
 }
 
 details {
@@ -35,4 +62,6 @@ details[open] summary {
 }
 
 footer {
+  padding: 1em;
+  text-align: center;
 }
