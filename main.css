@@ -1,8 +1,10 @@
 /*Requirements
 4 css variables */
 
-:root {
-}
+/*Apparently don't know even basic CSS. Then what?*/
+
+/*:root {
+}*/
 
 .font {
   font-family: Helvetica;
@@ -17,12 +19,6 @@
   height: 50%;
 }
 
-h2 {
-}
-
-h5 {
-}
-
 q {
   font-style: italic;
   font-size: 0.75em;
@@ -32,27 +28,20 @@ h3 {
   text-decoration: underline;
 }
 
-/*.buttons {
-  background-color: cornflowerblue;
-  color: black;
-  padding: 0.75em 1em;
-}*/
-
-.link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* I don't get how what I had before and what I have now are so different?*/
+.btn {
+  display: inline-block;
   padding: 1rem;
   border: 1px inset black;
   border-radius: 8px;
   background: steelblue;
 }
 
-.btn-link:hover {
+.btn:hover {
   background: tomato;
 }
 
-details {
+/*details {
 }
 
 summary {
@@ -62,7 +51,7 @@ details[open] {
 }
 
 details[open] summary {
-}
+}*/
 
 footer {
   padding: 1em;
